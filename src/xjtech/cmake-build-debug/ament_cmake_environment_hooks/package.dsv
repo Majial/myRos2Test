@@ -1,0 +1,4 @@
+source;share/xjtech/local_setup.bash
+source;share/xjtech/local_setup.dsv
+source;share/xjtech/local_setup.sh
+source;share/xjtech/local_setup.zsh

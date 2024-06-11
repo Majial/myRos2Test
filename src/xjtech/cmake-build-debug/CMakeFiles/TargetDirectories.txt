@@ -1,0 +1,10 @@
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/uninstall.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/xjtech_uninstall.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/MainTest.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/test.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/install.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/install/local.dir
+/home/union/ros2_code_ws/src/xjtech/cmake-build-debug/CMakeFiles/install/strip.dir

@@ -1,0 +1,54 @@
+xjtech:
+  xjtech_node:
+    ros__parameters:
+      # 机芯参数相关
+      Pixels: 3 # 图像像素宽度
+      DeviceType: 2 # TCP_HISI设备（红外热像仪） 0:无 1:UDP设备 2:TCP_HISI设备（红外热像仪） 3:RTSP设备 4: TCP_SAM设备
+      FrameRate: 25 # 图像帧频
+      SrcWidth: 384 # 原始图像/温度宽度
+      SrcHeight: 288 # 原始图像/温度高度
+      DstWidth: 360 # 目标图像/温度宽度
+      DstHeight: 288 # 目标图像/温度高度
+      CutHorOffset: 0 # 数据裁剪水平偏移量
+      CutVerOffset: 0 # 数据裁剪垂直偏移量
+      Cut: 1 # 数据裁剪标志
+      AlarmType: 0 # 报警类型（高温报警）0: 高温报警 1:低温报警 2:高低温报警
+      FlipType: 0 # 数据翻转类型 0: 不翻转 1:顺时针翻转90度 2:逆时针翻转90度 3:翻转最大值（哨兵）
+      PlatThresholdValue: 30 #平台阈值（范围1 ~ 200，默认值100）
+      MappingMidValue: 145 # 映射中间值，调整亮度（范围0 ~ 255，默认值128）
+      LowerDiscardRatio: 0.01 # 下抛点率（默认值1%）
+      UpperDiscardRatio: 0.01 # 上抛点率（默认值1%）
+      DynamicRangeCoef: 10 # 动态范围系数
+      MappingRange: 220 # 映射范围
+      Palette: 1 # 调色板 0-27
+      Gamma: 18 # Gamma 校正 轻易勿改
+      # 控制相关
+      ImageShow: true # 是否使用opencv实时显示测温图像
+      StandardTemperature: 40.0 # 设置的标准温度 
+      TemperatureMeasurementMode: 1 # 0:全局最高点  1:区域最高点  2:指定点测温
+      Region: # 区域测温时使用，指定测温范围左上角和右下角
+        leftTopPoint:
+          x: 80
+          y: 80
+        rightBottomPoint:
+          x: 160
+          y: 160
+      Point: # 指定点测温时使用
+        x: 210
+        y: 200
+      SaveTemprImage: false # 是否保存温度图像
+      ImageSavePath: default # 温度图像保存路径 默认路径为default
+      ImageSaveInterval: 24 # 图像保存间隔，0：逐帧保存 1：间隔1帧保存，范围0-24 （0-FrameRate-1）
+      SaveTemprCurve: false # 保存测温曲线
+      CurveSavePath: default # 测温曲线保存路径 默认路径为default
+      SaveTemprToFile: true # 是否保存温度到csv文件
+      FileSplitsLines: 100 # 文件长度达到多少行进行分割
+      FilesSavePath: default # 文件保存路径 默认路径为default
+
+
+
+
+      
+
+
+
